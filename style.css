@@ -3,6 +3,14 @@
   margin: 2px;
 }
 
+.bar {
+  width: 25px;
+  height: 200px;
+  display: inline-block;
+  background-color: lightblue;
+  margin-left: 5px;
+}
+
 .high {
   color: tomato;
 }

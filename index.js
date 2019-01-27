@@ -6,7 +6,7 @@ d3.select('body')
   .data(dataset)
   .enter()
   .append('div')
-  .attr('class', 'container')
+  .attr('class', 'bar')
   .style('height', d => {
-    return d * 10 + 'px'
+    return d * 20 + 'px'
   })
