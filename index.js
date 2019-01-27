@@ -1,5 +1,5 @@
 
-const dataset = [1, 2, 3, 4, 5]
+const dataset = [1, 6, 2, 3, 8, 11, 4, 5]
 const w = 500
 const h = 200
 
@@ -13,7 +13,9 @@ svg.selectAll('rect')
   .enter()
   .append('rect')
   .attr('width', 25)
-  .attr('height', 100)
+  .attr('height', d => {
+    return d * 20
+  })
   .attr('x', (d, i) => {
     return i * 30
   })
