@@ -21,4 +21,5 @@ svg.selectAll('rect')
   })
   .attr('y', d => {
     return h - d * 20
-  }) //invert SVG elements by deducing their height from total svg area height
+  })
+  .attr('fill', 'teal')
