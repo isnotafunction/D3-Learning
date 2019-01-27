@@ -1,5 +1,2 @@
-
-//selecting, appending and adding/grabbing text
-d3.select('ul')
-  .append('li')
-  .text('do this')
+//select multiple elements
+d3.selectAll('li').text('list item')
