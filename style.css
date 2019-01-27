@@ -1,0 +1,12 @@
+.container {
+  border: 1px solid teal;
+  margin: 2px;
+}
+
+.high {
+  color: tomato;
+}
+
+.low {
+  color: slateblue;
+}

@@ -10,10 +10,10 @@ d3.select('ul')
   .enter()//sees there are 2 el on the page but needs 5
   .append('li')//new li elements are appended
   .text(d => d)//text takes a callback
-  .style('color', d => {
+  .attr('class', d => {
     if (d > 4) {
-      return 'teal'
+      return 'high'
     } else {
-      return 'tomato'
+      return 'low'
     }
   })
