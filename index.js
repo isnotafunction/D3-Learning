@@ -19,4 +19,6 @@ svg.selectAll('rect')
   .attr('x', (d, i) => {
     return i * 30
   })
-  .attr('y', 0)
+  .attr('y', d => {
+    return h - d * 20
+  }) //invert SVG elements by deducing their height from total svg area height
