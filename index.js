@@ -9,4 +9,4 @@ d3.select('ul')
   .data(dataset)//reviews the dataset
   .enter()//sees there are 2 el on the page but needs 5
   .append('li')//new li elements are appended
-  .text('new item')
+  .text(d => d)//text takes a callback
