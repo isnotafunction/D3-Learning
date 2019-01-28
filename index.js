@@ -18,6 +18,8 @@ svg.selectAll('rect')
   .attr('y', d => h - d * 20)
   .attr('fill', 'darkorange')
   .attr('class', 'bar')
+  .append('title')
+  .text(d=>d)
 
 svg.selectAll('text')
   .data(dataset)
