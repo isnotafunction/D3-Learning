@@ -11,6 +11,9 @@ What I've learnt so far:
 - [x] Dynamically create new items by looping over a dataset
 - [x] Style the items with inline styles or css classes and dynamically update styles based on data from the dataset
 - [x] Dynamically create an svg bar chart and position the elements correctly within an svg area.
+- [x] Create & style labels
+- [x] Add a hover effect
+- [x] Add a tooltip
 
-
+![](assets/bar-chart.png)
 
