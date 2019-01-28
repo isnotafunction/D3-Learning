@@ -17,6 +17,7 @@ svg.selectAll('rect')
   .attr('x', (d, i) => i * 30)
   .attr('y', d => h - d * 20)
   .attr('fill', 'darkorange')
+  .attr('class', 'bar')
 
 svg.selectAll('text')
   .data(dataset)

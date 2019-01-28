@@ -9,10 +9,12 @@
 
 .bar {
   width: 25px;
-  height: 200px;
   display: inline-block;
-  background-color: lightblue;
   margin-left: 5px;
+}
+
+.bar:hover{
+  fill: rgb(173, 120, 40);
 }
 
 .high {
