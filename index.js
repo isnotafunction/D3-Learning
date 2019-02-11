@@ -68,3 +68,12 @@ const svg2 = d3.select('body')
   .text(d => d)
   .attr('fill', 'olive')
   
+// scale
+
+const scale = d3.scaleLinear() // uses the identity relationship
+//domain: dataset value range
+//range: units on svg canvas
+scale.domain([250, 500]).range([10, 150])
+
+
+const output = scale(50) 
