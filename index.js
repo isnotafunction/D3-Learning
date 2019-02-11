@@ -57,6 +57,7 @@ const svg2 = d3.select('body')
   .attr('cx', d=>d[0])
   .attr('cy', d=>h-d[1])
   .attr('r', 5)
+  .attr('fill', 'teal')
   
   svg2.selectAll('text')
   .data(dataset2)
@@ -65,3 +66,5 @@ const svg2 = d3.select('body')
   .attr('x', (d) => d[0] + 5)
   .attr('y', d => h - d[1])
   .text(d => d)
+  .attr('fill', 'olive')
+  
